@@ -222,7 +222,7 @@ decrypt_message=""
 for letter in input_data:
     index = keys.index(letter)
     decrypt_message+= mouse[index]
-print(f"decrypoted data is :{decrypt_message}")'''
+print(f"decrypoted data is :{decrypt_message}")
 
 
 
@@ -309,4 +309,4 @@ def main():
             
 
 if __name__ == "__main__":
-    main()
+    main()'''
