@@ -29,7 +29,7 @@ hangman_art = {0:("   ",
                   "/ \\")} #It is totally stored in dictionary 
 def display_man(wrong_guesses):
     for line in hangman_art[wrong_guesses]:
-        print(line)
+        print(line) #it travels from first key-value pair to next value if guess is wrong
 
 def dispaly_hint(hint):
     print(" ".join(hint))
