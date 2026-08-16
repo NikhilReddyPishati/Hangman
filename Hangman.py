@@ -1,5 +1,5 @@
 import random          #imports random package
-words="apple","banana","orange","pineapple","watermelon"
+words="apple","banana","orange","pineapple","watermelon" #given words
 print("Welcome to Hangman man")
 print("Instructions of the game\n1.You need to guess the word which are related to fruits Letter By Letter" \
 "\n2.If your guess is wrong a human parts will appear on the screen"
