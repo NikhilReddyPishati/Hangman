@@ -26,7 +26,7 @@ hangman_art = {0:("   ",
                   "/  "),
                6:(" o ",
                   "/|\\",
-                  "/ \\")}
+                  "/ \\")} #It is totally stored in dictionary 
 def display_man(wrong_guesses):
     for line in hangman_art[wrong_guesses]:
         print(line)
