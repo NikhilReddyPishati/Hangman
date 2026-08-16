@@ -32,7 +32,7 @@ def display_man(wrong_guesses):
         print(line) #it travels from first key-value pair to next value if guess is wrong
 
 def dispaly_hint(hint):
-    print(" ".join(hint))
+    print(" ".join(hint)) #it displays hint but not included 
 
 def dispaly_answer(choice):
     print(" ".join(choice))
