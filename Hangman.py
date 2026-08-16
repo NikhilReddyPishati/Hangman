@@ -50,7 +50,7 @@ def main():
     while is_running:
         display_man(wrong_guesses)
         dispaly_hint(hint)
-       
+       # loop
         guess = input ("Enter any letter").lower()
         if guess in choice:
             for i in range(len(choice)):
