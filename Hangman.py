@@ -4,7 +4,7 @@ print("Welcome to Hangman man").  #first print line
 print("Instructions of the game\n1.You need to guess the word which are related to fruits Letter By Letter" \. #Instructions
 "\n2.If your guess is wrong a human parts will appear on the screen"
 "\n3.You need to guess the word before a total human is generated")
-
+#All Three are Instructions 
 #dictionary
 hangman_art = {0:("   ",
                   "   ",
