@@ -1,4 +1,4 @@
-import random
+import random #imports random package
 words="apple","banana","orange","pineapple","watermelon"
 print("Welcome to Hangman man")
 print("Instructions of the game\n1.You need to guess the word which are related to fruits Letter By Letter" \
