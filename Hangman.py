@@ -45,7 +45,7 @@ def main():
     wrong_guesses=0
     guessed_letter = set()
     is_running = True
-#main Function 
+# main Function 
 
     while is_running:
         display_man(wrong_guesses)
