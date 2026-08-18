@@ -1,2 +1,2 @@
 # Hangman
-Game Which Is Related to Guessing
+Game Which Is Related to Guessing Of Fruits 
