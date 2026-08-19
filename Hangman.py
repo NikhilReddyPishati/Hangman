@@ -48,7 +48,7 @@ def main():
 # main Function 
 
     while is_running:
-        display_man(wrong_guesses)
+        display_man(wrong_guesses) #Wrong guesses
         dispaly_hint(hint)
        # loop
         guess = input ("Enter any letter").lower()
