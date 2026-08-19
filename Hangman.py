@@ -40,7 +40,7 @@ def dispaly_answer(choice):
 
 
 def main():
-    choice = random.choice(words)
+    choice = random.choice(words) #chooses random words from Stored Inputs
     hint =["_"]*len(choice)
     wrong_guesses=0
     guessed_letter = set()
