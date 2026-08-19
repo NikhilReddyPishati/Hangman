@@ -35,7 +35,7 @@ def dispaly_hint(hint):
     print(" ".join(hint)) #It displays hint but not included 
 
 def dispaly_answer(choice):
-    print(" ".join(choice)) #it displays choice but not included 
+    print(" ".join(choice)) #It displays choice but not included 
 
 
 
