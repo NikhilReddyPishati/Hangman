@@ -26,7 +26,7 @@ hangman_art = {0:("   ",
                   "/  "),
                6:(" o ",
                   "/|\\",
-                  "/ \\")} #It is totally stored in dictionary 
+                  "/ \\")} #These are stored
 def display_man(wrong_guesses):
     for line in hangman_art[wrong_guesses]:
         print(line) #it travels from first key-value pair to next value if guess is wrong
