@@ -41,7 +41,7 @@ def dispaly_answer(choice):
 
 def main():
     choice = random.choice(words) #chooses random words from Stored Inputs
-    hint =["_"]*len(choice)
+    hint =["_"]*len(choice) #It Print dashes With Respect to Size of Words
     wrong_guesses=0
     guessed_letter = set()
     is_running = True
