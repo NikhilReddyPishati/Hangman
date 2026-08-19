@@ -19,7 +19,7 @@ hangman_art = {0:("   ",
                   "/| ",
                   "   "),
                4:(" o ",
-                  "/|\\",
+                  "/|\\",#Used two Slashes because it takes input
                   "   "),
                5:(" o ",
                   "/|\\",
