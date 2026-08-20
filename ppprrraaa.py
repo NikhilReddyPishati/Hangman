@@ -1,5 +1,5 @@
 #import random
-# This Total Lines of code
+# This Total Lines of code Are Just For Practice
 '''lowest = 1
 highest = 3
 answer = random.randint(lowest,highest)
