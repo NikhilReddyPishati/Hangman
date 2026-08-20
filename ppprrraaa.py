@@ -6,7 +6,7 @@ answer = random.randint(lowest,highest)
 guesses = 0
 is_running = True
 print("python guessing game")
-print(f"select number between {lowest} and {highest}")
+print(f"Select The Number between {lowest} and {highest}")
 
 while is_running:
     guess = input(f"enter any guess between {lowest} and {highest} ::::")
