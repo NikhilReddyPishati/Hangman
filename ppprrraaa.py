@@ -22,8 +22,8 @@ while is_running:
         elif guess > answer:
            print ("Guessed number is greater than answer, try again")
         else:
-            print (f"corect {guess}")
-            print (f"your attempts are {guesses} to get  correct answer")
+            print (f"correct {guess}")
+            print (f"Your Attempts are {guesses} to get  correct answer")
             is_running = False
     else:
         print("invalid guess")'''
