@@ -22,16 +22,16 @@ while is_running:
         elif guess > answer:
            print ("Guessed number is greater than answer, try again")
         else:
-            print (f"correct {guess}")
+            print (f"Correct {guess}")
             print (f"Your Attempts are {guesses} to get  correct answer")
             is_running = False
     else:
-        print("invalid guess")'''
+        print("Invalid guess")'''
 #● ┌ ─ ┐ │ └ ┘
 
 '''def display_lawada(username,rate,shapes):
-    print(f"hello figure name is {username}")
-    print(f"rate of the figure is {rate} and saamanlu is {shapes}")
+    print(f"Hello figure name is {username}")
+    print(f"Rate of the figure is {rate} and saamanlu is {shapes}")
 
 
 display_lawada(" 1 -samantha",31,"32,30,36")
