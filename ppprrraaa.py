@@ -6,10 +6,10 @@ answer = random.randint(lowest,highest)
 guesses = 0
 is_running = True
 print("python guessing game")
-print(f"Select The Number between {lowest} and {highest}")
+print(f"Select The Number Between {lowest} and {highest}")
 
 while is_running:
-    guess = input(f"enter any guess between {lowest} and {highest} ::::")
+    guess = input(f"Enter any Guess Between {lowest} and {highest} ::::")
 
     if guess.isdigit():
         guess = int(guess)
@@ -18,9 +18,9 @@ while is_running:
         if guess<lowest or guess>highest:
             print ("out of range")
         elif guess < answer:
-            print("guessed number is less than answer, try again")
+            print("Guessed number is less than answer, try again")
         elif guess > answer:
-           print ("guessed number is greater than answer, try again")
+           print ("Guessed number is greater than answer, try again")
         else:
             print (f"corect {guess}")
             print (f"your attempts are {guesses} to get  correct answer")
