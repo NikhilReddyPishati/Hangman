@@ -1,4 +1,4 @@
-#This is just A Practice File with multiple Mini projects
+#This is just A Practice File with multiple Mini Programs
 #import random
 # This Total Lines of code Are Just For Practice
 '''lowest = 1
