@@ -1,3 +1,4 @@
+#This is just
 #import random
 # This Total Lines of code Are Just For Practice
 '''lowest = 1
