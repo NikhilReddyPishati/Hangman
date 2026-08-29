@@ -24,7 +24,7 @@ while is_running:
            print ("Guessed number is greater than answer, try again")
         else:
             print (f"Correct {guess}")
-            print (f"Your Attempts are {guesses} to get  correct answer")
+            print (f"Your Attempts are {guesses} to get  correct answer")#prints
             is_running = False
     else:
         print("Invalid guess")'''
