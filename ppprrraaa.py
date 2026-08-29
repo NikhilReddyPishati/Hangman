@@ -27,7 +27,7 @@ while is_running:
             print (f"Your Attempts are {guesses} to get  correct answer")#prints
             is_running = False
     else:
-        print("Invalid guess")'''
+        print("Invalid guess")''' 
 #● ┌ ─ ┐ │ └ ┘
 
 '''def display_lawada(username,rate,shapes):
