@@ -149,7 +149,7 @@ def main():
         if guess in guessed_letter:
             print("already guessed")
             continue
-        guessed_letter.add(guess)
+        guessed_letter.add(guess) #guessed
 
         if "_" not in hint:
             print(f"you wrong guesses are :{wrong_guesses}")
