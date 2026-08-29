@@ -16,10 +16,10 @@ while is_running:
         guess = int(guess)
         guesses+= 1
 
-        if guess<lowest or guess>highest:
+        if guess<lowest or guess>highest: 
             print ("out of range")
         elif guess < answer:
-            print("Guessed number is less than answer, try again")
+            print("Guessed number is less than answer, try again")#Prints
         elif guess > answer:
            print ("Guessed number is greater than answer, try again")
         else:
