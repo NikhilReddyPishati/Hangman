@@ -70,7 +70,7 @@ def main():
 
         if "_" not in hint:
             print(f"you wrong guesses are :{wrong_guesses}")
-            print("YPU WIN!🏆🏆")
+            print("YOU WIN!🏆🏆")
             is_running=False
         elif wrong_guesses>=len(hangman_art)-1:
             display_man(wrong_guesses)
