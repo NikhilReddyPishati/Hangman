@@ -75,7 +75,7 @@ def main():
         elif wrong_guesses>=len(hangman_art)-1:
             display_man(wrong_guesses)
             dispaly_answer(choice)
-            print("YOU LOSE😭😭")#Displays the 
+            print("YOU LOSE😭😭")#Displays the lose text
             is_running=False
 
             
