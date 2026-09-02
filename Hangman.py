@@ -56,7 +56,7 @@ def main():
             for i in range(len(choice)):#This is the loop where it include length of the choice
                 if choice[i]== guess:#it compares the choice and guess
                     hint[i]=guess
-                    continue
+                    continue #continues 
         else:
             wrong_guesses +=1
         
