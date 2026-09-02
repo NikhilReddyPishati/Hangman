@@ -61,7 +61,7 @@ def main():
             wrong_guesses +=1 #it increase the count of wrong guesses
         
         if len(guess)>1 or guess.isdigit(): #it verifies whether equal or not
-            print("invalid guess")
+            print("invalid guess")#Displays the invalid guess 
             continue
         if guess in guessed_letter:
             print("already guessed")
