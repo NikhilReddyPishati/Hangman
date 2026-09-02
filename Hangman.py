@@ -64,7 +64,7 @@ def main():
             print("invalid guess")#Displays the invalid guess 
             continue
         if guess in guessed_letter:
-            print("already guessed")
+            print("already guessed")#displays this word
             continue
         guessed_letter.add(guess)
 
