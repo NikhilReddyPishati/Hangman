@@ -58,7 +58,7 @@ def main():
                     hint[i]=guess
                     continue #continues 
         else:
-            wrong_guesses +=1
+            wrong_guesses +=1 #it increase the count of wrong guesses
         
         if len(guess)>1 or guess.isdigit():
             print("invalid guess")
