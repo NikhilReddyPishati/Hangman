@@ -53,7 +53,7 @@ def main():
        # loop
         guess = input ("Enter any letter").lower().#It converts the input to Small letters
         if guess in choice:
-            for i in range(len(choice)):
+            for i in range(len(choice)):#This is the loop
                 if choice[i]== guess:
                     hint[i]=guess
                     continue
