@@ -5,6 +5,6 @@
 - If user Enter Whole Name of the Fruit at a single time It may Display Error.
 - For Every Single Guess if Guess is wrong it gives a hint and displays Hangman Body Parts (hands,legs...) in a terminal.
 - It counts the wrong Guesses and stores it.
-- If Your guess is Right It gives You another Chance without printing.
+- If Your guess is Right It gives You another Chance without Providing.
 - And You Need To Guess Next Letter to Complete The Game.
 - This Process Continues Until You Guess Last Word Correctly.
