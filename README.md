@@ -1,6 +1,6 @@
 # Hangman
 ## Game Which Is Related to Guessing Of Fruits Which are Previously saved
-- It Just Provide You some blanks With a size of the Fruit Name.
+- It Just Provide some blanks With a size of the Fruit Name.
 - User Need to Enter A Single Letter For Every Time as Their Guess.
 - If user Enter Whole Name of the Fruit It may Display Error.
 - For Every Single Guess if Guess is wrong it gives a hint and displays Hangman Body Parts (hands,legs...) in a terminal.
